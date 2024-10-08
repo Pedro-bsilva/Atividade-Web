@@ -1,0 +1,89 @@
+/* Estilo geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.flex{
+    display: flex;
+
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40PX 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #9ec5c6;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #5ce1e6;
+    transform: scale(1.05);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* ESTILO DO TOPO DO SITE*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site.flex{
+align-items: center;
+justify-content: center;
+font-size: 90px;
+}
+
+.topo-do-site  h2{
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+
+.topo-do-site .txt-topo-site .btnsocial button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #5ce1e6;
+}
